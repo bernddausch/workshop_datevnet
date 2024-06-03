@@ -26,6 +26,7 @@ http://win-proxy.services.datevnet.de:8880
 - 24/7 Monitoring durch DATEV
   - Eigenes Regelwerk falls im Montioring neue Schadsoftware Varianten erkannt werden
   - im Notfall Stecker ziehen (geschehen bei ['I Love you' Virus](https://en.wikipedia.org/wiki/ILOVEYOU))
+- Nutzt Blacklists zum Blockieren bekannter **böser** URLs
 
 ### Konfiguration
 
