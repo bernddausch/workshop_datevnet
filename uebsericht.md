@@ -26,3 +26,15 @@
 
 ### DATEVnet mobile
 
+### Funktionen
+
+- Anbindung von mogilen Geräten (z.B. iPhone, iPad, Android Devices) ans Firmennetzwerk
+- Verwendete Software
+  - Ivanti Mobile@Work (Mobile Device Managment)
+  - Cisco AnyConnect (VPN Client)
+
+### Details
+
+
+[Installationswegweiser DATEVnet mobile](https://apps.datev.de/help-center/documents/0904059)
+
