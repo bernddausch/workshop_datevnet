@@ -44,8 +44,8 @@ http://win-proxy.services.datevnet.de:8880
 
 ## Socks Proxy
 
-
 ### Beschreibung
+
 Das SOCKS-Protokoll ist ein Internet-Protokoll, das Client-Server-Anwendungen erlaubt, protokollunabhängig und transparent die Dienste eines Proxyservers zu nutzen. SOCKS ist eine Abkürzung für „SOCKetS“.
 
 Clients hinter einer Firewall, die eine Verbindung zu einem externen Server aufbauen wollen, verbinden sich stattdessen zu einem SOCKS-Proxy. Dieser Proxyserver überprüft die Berechtigung des Clients, den externen Server zu kontaktieren, und leitet die Anfrage an den Server weiter.
@@ -54,8 +54,22 @@ Clients hinter einer Firewall, die eine Verbindung zu einem externen Server aufb
 
 [Quelle](https://de.wikipedia.org/wiki/SOCKS)
 
+Dadurch muss der Proxy das Protokoll/die Anwendung nicht verstehen. 
+
+### Anwendung
+
+Hiermit können Anwendungen z.B. ssh eine Verbindung über den Proxy aufbauen. Nachteil ist hier wie bei HTTPS ohne Scan, das die Daten NICHT auf Viren geprüft werden können. Auch der Abfluss von Dokumenten kann hier nicht verhindert werden.
+
 ### Addresse Socks Proxy DATEV
 
 ```
 socks.services.datevnet.de:1080
 ```
+
+## FTP Proxy
+
+Servername und Credentials werden im Benutzernamen und Kennwort "kodiert" und an den FTP Proxy übergeben.
+
+Nicht mehr Empfohlen da die Daten Unverschlüsselt übertragen werden und an jeden Punkt den die Daten passieren ausgelesen werden können.
+
+[DATEV Hilfe](https://apps.datev.de/help-center/documents/0903258)
