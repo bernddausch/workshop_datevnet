@@ -1,6 +1,7 @@
 # DATEVnet besteht aus
 
 - DATEVnet Einzelplatz / DATEVnet Telearbeitsplatz
+- DATEVnet LAN-LAN-Kopplung
 - DATEVnet mobil
 - DATEVnet Netz
 - DATEVnet Hosted Exchange
