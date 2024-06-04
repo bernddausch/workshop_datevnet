@@ -3,6 +3,7 @@
 - DATEVnet Einzelplatz / DATEVnet Telearbeitsplatz
 - DATEVnet mobil
 - DATEVnet Netz
+- DATEVnet Hosted Exchange
 
 
 [DATEV Suche DATEVnet](https://www.datev.de/web/de/suche/?query=datevnet)
