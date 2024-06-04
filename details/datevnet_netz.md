@@ -30,7 +30,7 @@ http://win-proxy.services.datevnet.de:8880
 
 ### Konfiguration
 
-- [Brower Konfiguration](https://apps.datev.de/help-center/documents/0904080)
+- [Browser Konfiguration](https://apps.datev.de/help-center/documents/0904080)
   - Manuell
   - [Proxy Konfiguration mit ProxySetter](https://www.datev.de/web/de/service-und-support/software-bereitstellung/download-bereich/it-loesungen-und-security/datevnet-proxyeinstellungen/)
   - eventuell noch Automatische Konfiguration mit WPAD (wird aktuell von Fachabteilung validiert)
