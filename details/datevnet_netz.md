@@ -70,6 +70,6 @@ socks.services.datevnet.de:1080
 
 Servername und Credentials werden im Benutzernamen und Kennwort "kodiert" und an den FTP Proxy übergeben.
 
-Nicht mehr Empfohlen da die Daten Unverschlüsselt übertragen werden und an jeden Punkt den die Daten passieren ausgelesen werden können.
+Nicht mehr Empfohlen da die Daten Unverschlüsselt übertragen werden und an jeden Punkt den die Daten passieren mitgelesen werden können.
 
 [DATEV Hilfe](https://apps.datev.de/help-center/documents/0903258)
