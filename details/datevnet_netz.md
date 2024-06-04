@@ -20,7 +20,8 @@ http://win-proxy.services.datevnet.de:8880
 ### Allgemein
 
 - Versteht http (Port 80) und https (Port 443)
-- SSL Scan möglich. Muss getrennt Freigeschaltet werden
+- SSL Scan möglich
+  - Zwischenzertifizierungs Stellen Zertifikat muss Installiert werden. Da der Proxy pro Website ein eigenes Zertifikat erstellt.
 - Proxy mit Anmeldung erfasst Surfverhalten der Mitarbeiter
   - Mitarbeiter kann auf Proxy ohne Authentifizierung Umschalten
 - 24/7 Monitoring durch DATEV
@@ -32,7 +33,7 @@ http://win-proxy.services.datevnet.de:8880
 
 - [Browser Konfiguration](https://apps.datev.de/help-center/documents/0904080)
   - Manuell
-  - [Proxy Konfiguration mit ProxySetter](https://www.datev.de/web/de/service-und-support/software-bereitstellung/download-bereich/it-loesungen-und-security/datevnet-proxyeinstellungen/)
+  - [Proxy Konfiguration mit ProxySetter](https://www.datev.de/web/de/service-und-support/software-bereitstellung/download-bereich/it-loesungen-und-security/datevnet-proxyeinstellungen/). Der Proxysetter Installiert auch das nötige Zertifikate für SSL Scans.
   - eventuell noch Automatische Konfiguration mit WPAD (wird aktuell von Fachabteilung validiert)
 - OS Konfiguration mit netsh
 - Konfiguration von .net Anwendungen in den .net Konfigurationsfiles für 32- und 64-Bit Anwendungen
